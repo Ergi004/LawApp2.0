@@ -23,49 +23,49 @@ export default defineType({
       },
       group: 'general',
     }),
-    defineField({
-      name: 'announcements',
-      type: 'array',
-      of: [{type: 'reference', to: [{type: 'announcement'}]}],
-      group: 'general',
-      description: 'Higher order has higher precedence',
-    }),
-    defineField({
-      name: 'ctas',
-      title: 'Call-to-action',
-      type: 'array',
-      of: [{type: 'cta'}],
-      group: 'general',
-    }),
-    defineField({
-      name: 'copyright',
-      type: 'array',
-      of: [
-        {
-          type: 'block',
-          styles: [{title: 'Normal', value: 'normal'}],
-        },
-      ],
-      group: 'general',
-    }),
-    defineField({
-      name: 'headerMenu',
-      type: 'reference',
-      to: [{type: 'navigation'}],
-      group: 'navigation',
-    }),
-    defineField({
-      name: 'footerMenu',
-      type: 'reference',
-      to: [{type: 'navigation'}],
-      group: 'navigation',
-    }),
-    defineField({
-      name: 'social',
-      type: 'reference',
-      to: [{type: 'navigation'}],
-      group: 'navigation',
-    }),
+    // defineField({
+    //   name: 'announcements',
+    //   type: 'array',
+    //   of: [{type: 'reference', to: [{type: 'announcement'}]}],
+    //   group: 'general',
+    //   description: 'Higher order has higher precedence',
+    // }),
+    // defineField({
+    // 	name: 'ctas',
+    // 	title: 'Call-to-action',
+    // 	type: 'array',
+    // 	of: [{ type: 'cta' }],
+    // 	group: 'general',
+    // }),
+    // defineField({
+    // 	name: 'copyright',
+    // 	type: 'array',
+    // 	of: [
+    // 		{
+    // 			type: 'block',
+    // 			styles: [{ title: 'Normal', value: 'normal' }],
+    // 		},
+    // 	],
+    // 	group: 'general',
+    // }),
+    // defineField({
+    // 	name: 'headerMenu',
+    // 	type: 'reference',
+    // 	to: [{ type: 'navigation' }],
+    // 	group: 'navigation',
+    // }),
+    // defineField({
+    // 	name: 'footerMenu',
+    // 	type: 'reference',
+    // 	to: [{ type: 'navigation' }],
+    // 	group: 'navigation',
+    // }),
+    // defineField({
+    // 	name: 'social',
+    // 	type: 'reference',
+    // 	to: [{ type: 'navigation' }],
+    // 	group: 'navigation',
+    // }),
     defineField({
       name: 'ogimage',
       title: 'Open Graph Image (global)',
