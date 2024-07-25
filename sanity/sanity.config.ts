@@ -12,7 +12,7 @@ export default defineConfig({
   projectId: 'aqpb3xj6',
   dataset: 'production',
 
-  plugins: [structureTool(), visionTool(), media(), colorInput()],
+  plugins: [structureTool(), visionTool({title: 'GROQ'}), media(), colorInput()],
 
   schema: {
     types: schemaTypes,

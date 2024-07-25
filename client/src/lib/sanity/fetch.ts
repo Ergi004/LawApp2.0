@@ -11,7 +11,7 @@ export function fetchSanity<T = object>(
     params,
     ...next
   }: {
-    params: QueryParams & {
+    params?: QueryParams & {
       // lang: Languages;
     };
   } & ResponseQueryOptions["next"]
